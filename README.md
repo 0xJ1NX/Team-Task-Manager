@@ -1,5 +1,5 @@
 # Team-Task-Manager
-An web app for managing tasks built with php,html,and css.
+An web app for managing tasks built with php,html,and css ( WEB COURSE FINAL PROJECT-Comp334 ).
 
 # Technologies Used
 - php
