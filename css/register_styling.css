@@ -1,0 +1,98 @@
+header{
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.logo{
+    text-shadow: 0 0 8px #e9e9eb;
+    background-image: url(../assets/images/sparkl.gif);
+    background-repeat: repeat;
+}
+
+footer{
+    color: rgba(255, 255, 255, 0.75);
+    padding: 20px;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 700px;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 15px;
+}
+
+.container .title-registration{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+
+.details-con{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.input-box{
+    width: calc(50% - 20px);
+    margin: 20px 0 12px 0;
+}
+
+.details{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input-box input{
+    display: block;
+    border: 2px solid #ccc;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px ;
+    margin-top: 5px;
+    border-radius: 5px;
+
+}
+
+input[type="submit"]{
+    height: 40px;
+    width: 100%;
+    background: #3a7bd5;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: 0.1s ease-in-out;
+    border-radius: 5px;
+}
+input[type="submit"]:hover{
+    background: #3e619b;
+}
+
+main p {
+    margin-top: 10px;
+}
+
+main p a{
+    color: #727272;
+    text-decoration: none;
+
+}
+main p a:hover{
+    color: #3a7bd5;
+}
